@@ -17,4 +17,4 @@ sleep 5
 
 # Search for the issue
 exec gh search issues $RANDOM_STRING -R $ORG/$SCRIPT_NAME-$RANDOM_STRING
-stdout $RANDOM_STRING
+stdout $RANDOM
